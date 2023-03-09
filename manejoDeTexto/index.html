@@ -9,6 +9,12 @@
         table th,table td{
             border: 1px solid green;
         }
+        tfoot{
+            background-color: orange;
+        }
+        thead{
+            background-color: blue;
+        }
     </style>
 
 </head>
@@ -41,5 +47,40 @@
         </tbody>
         <tfoot></tfoot>
     </table>
+    <table>
+        <caption>Rendimiento de los alumno</caption>
+        <thead>
+            <tr>
+                <td colspan="2">A</td>
+                <td colspan="2">D</td>
+              </tr>
+              <tr>
+                <td>B</td>
+                <td>C</td>
+                <td>E</td>
+                <td>F</td>
+              </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">d1</td>
+                <td>d2</td>
+                <td rowspan="2">d4</td>
+                <td>d5</td>
+            </tr>
+            <tr>
+                <td>d3</td>
+                <td>d6</td>
+            </tr>
+        
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">TOTAL</td>
+                <td>100</td>
+            </tr>
+        </tfoot>
+    </table>
+    <a href="pagina/contacto.html">CONTACTO</a>
 </body>
 </html>
