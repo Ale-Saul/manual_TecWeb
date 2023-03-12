@@ -5,9 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manual html</title>
+	<style>
+		table {
+			border: 1px solid black;
+			border-collapse: collapse;
+			width: 100%;
+		}
+		th, td {
+			border: 1px solid black;
+			text-align: left;
+			padding: 8px;
+		}
+		tr:nth-child(even) {
+			background-color: #f2f2f2;
+		} 
+		/* .derecha{
+			text-align: rigth;
+		}
+		div{
+			background-color: red;
+		} */
+	</style>
 </head>
 <body>
     <h1>Manual html</h1>
+	<div>
+		<a href="parrafo.html" >Ir al parrafo</a>
+		<a href="#final" text-align="rigth">Ir al final</a>
+	</div>
     <table>
         <thead>
             <tr>
@@ -19,53 +44,53 @@
         <tbody>
             <tr>
 				<td>&lt;html&gt;</td>
-				<td>El elemento raíz que encierra todo el documento HTML</td>
 				<td>Define el comienzo de un documento HTML</td>
+				<td>El elemento raíz que encierra todo el documento HTML</td>
 			</tr>
 			<tr>
 				<td>&lt;head&gt;</td>
-				<td>Contiene información sobre el documento HTML, como metadatos, scripts y enlaces a hojas de estilo</td>
 				<td>Define una sección de encabezado para el documento HTML</td>
+				<td>Contiene información sobre el documento HTML, como metadatos, scripts y enlaces a hojas de estilo</td>
 			</tr>
 			<tr>
 				<td>&lt;body&gt;</td>
-				<td>Contiene el contenido del documento HTML, como texto, imágenes, enlaces, formularios, etc.</td>
 				<td>Define el cuerpo principal del documento HTML</td>
+				<td>Contiene el contenido del documento HTML, como texto, imágenes, enlaces, formularios, etc.</td>
 			</tr>
 			<tr>
 				<td>&lt;div&gt;</td>
-				<td>Se utiliza para agrupar elementos HTML juntos y aplicar estilos a ellos con CSS</td>
 				<td>Define una sección genérica o contenedor sin ningún significado especial</td>
+				<td>Se utiliza para agrupar elementos HTML juntos y aplicar estilos a ellos con CSS</td>
 			</tr>
 			<tr>
 				<td>&lt;p&gt;</td>
-				<td>Se utiliza para crear un párrafo de texto en el documento HTML</td>
 				<td>Define un párrafo de texto</td>
+				<td>Se utiliza para crear un párrafo de texto en el documento HTML</td>
 			</tr>
 			<tr>
 				<td>&lt;img&gt;</td>
-				<td>Se utiliza para incrustar una imagen en el documento HTML</td>
 				<td>Define una imagen en el documento HTML</td>
+				<td>Se utiliza para incrustar una imagen en el documento HTML</td>
 			</tr>
 			<tr>
 				<td>&lt;a&gt;</td>
-				<td>Se utiliza para crear un enlace a otra página web, archivo o ubicación en la misma página</td>
 				<td>Define un hipervínculo</td>
+				<td>Se utiliza para crear un enlace a otra página web, archivo o ubicación en la misma página</td>
 			</tr>
 			<tr>
 				<td>&lt;form&gt;</td>
-				<td>Se utiliza para crear un formulario en el documento HTML que permite a los usuarios enviar información al servidor web</td>
 				<td>Define un formulario HTML para entrada de datos del usuario</td>
+				<td>Se utiliza para crear un formulario en el documento HTML que permite a los usuarios enviar información al servidor web</td>
 			</tr>
 			<tr>
 				<td>&lt;input&gt;</td>
-				<td>Se utiliza para crear campos de entrada en un formulario, como cajas de texto, botones de opción y botones de envío</td>
 				<td>Define un elemento de entrada para un formulario HTML</td>
+				<td>Se utiliza para crear campos de entrada en un formulario, como cajas de texto, botones de opción y botones de envío</td>
 			</tr>
             <tr>
 				<td>&lt;meta&gt;</td>
-				<td>Se utiliza para incluir metadatos en el documento HTML, como el autor, la descripción y palabras clave</td>
 				<td>Define metadatos para el documento HTML</td>
+				<td>Se utiliza para incluir metadatos en el documento HTML, como el autor, la descripción y palabras clave</td>
 			</tr>
 			<tr>
 				<td>&lt;title&gt;</td>
@@ -74,38 +99,259 @@
 			</tr>
 			<tr>
 				<td>&lt;h1&gt; a &lt;h6&gt;</td>
-				<td>Se utilizan para crear encabezados de sección en el documento HTML, donde &lt;h1&gt; es el encabezado más importante y &lt;h6&gt; es el menos importante</td>
 				<td>Define un encabezado de sección</td>
+				<td>Se utilizan para crear encabezados de sección en el documento HTML, donde &lt;h1&gt; es el encabezado más importante y &lt;h6&gt; es el menos importante</td>
 			</tr>
 			<tr>
 				<td>&lt;span&gt;</td>
-				<td>Se utiliza para agrupar elementos HTML juntos y aplicar estilos a ellos con CSS</td>
 				<td>Define una sección genérica o contenedor sin ningún significado especial</td>
+				<td>Se utiliza para agrupar elementos HTML juntos y aplicar estilos a ellos con CSS</td>
 			</tr>
 			<tr>
 				<td>&lt;article&gt;</td>
-				<td>Se utiliza para marcar el contenido independiente y autónomo en el documento HTML, como un artículo de periódico o un blog</td>
 				<td>Define un artículo independiente en el documento HTML</td>
+				<td>Se utiliza para marcar el contenido independiente y autónomo en el documento HTML, como un artículo de periódico o un blog</td>
 			</tr>
 			<tr>
 				<td>&lt;section&gt;</td>
-				<td>Se utiliza para agrupar contenido relacionado en el documento HTML, como secciones de un artículo o capítulos de un libro</td>
 				<td>Define una sección lógica en el documento HTML</td>
+				<td>Se utiliza para agrupar contenido relacionado en el documento HTML, como secciones de un artículo o capítulos de un libro</td>
 			</tr>
 			<tr>
 				<td>&lt;nav&gt;</td>
-				<td>Se utiliza para definir un conjunto de enlaces de navegación en el documento HTML</td>
 				<td>Define una sección de navegación en el documento HTML</td>
+				<td>Se utiliza para definir un conjunto de enlaces de navegación en el documento HTML</td>
 			</tr>
 			<tr>
 				<td>&lt;aside&gt;</td>
-				<td>Se utiliza para marcar el contenido relacionado pero separado del contenido principal del documento HTML, como una barra lateral o un cuadro de anuncios</td>
 				<td>Define una sección de contenido relacionado pero separado del contenido principal del documento HTML</td>
+				<td>Se utiliza para marcar el contenido relacionado pero separado del contenido principal del documento HTML, como una barra lateral o un cuadro de anuncios</td>
 			</tr>
             <tr>
 				<td>&lt;footer&gt;</td>
-				<td>Se utiliza para definir el pie de página del documento HTML</td>
 				<td>Define el pie de página del documento HTML</td>
+				<td>Se utiliza para definir el pie de página del documento HTML</td>
+			</tr>
+			<tr>
+				<td>&lt;header&gt;</td>
+				<td>Define la cabecera de una página o sección.</td>
+				<td>Se utiliza para agregar elementos de encabezado en una página web, como el título, logo, menú de navegación, entre otros.</td>
+			</tr>
+			<tr>
+				<td>&lt;style&gt;</td>
+				<td>Define una sección de estilo en el documento HTML.</td>
+				<td>Se utiliza para agregar estilos CSS en una página web, como el color de fondo, color de texto, tamaño de fuente, entre otros.</td>
+			</tr>
+		  	<tr>
+				<td>&lt;nav&gt;</td>
+				<td>Define un menú de navegación.</td>
+				<td>Se utiliza para agregar un menú de navegación en una página web, que permite a los usuarios navegar por diferentes secciones o páginas del sitio.</td>
+			</tr>
+			<tr>
+				<td>&lt;main&gt;</td>
+				<td>Define el contenido principal de una página.</td>
+				<td>Se utiliza para agregar el contenido principal de una página web, como artículos, secciones, formularios, entre otros.</td>
+			</tr>
+			<tr>
+				<td>&lt;section&gt;</td>
+				<td>Define una sección en una página o artículo.</td>
+				<td>Se utiliza para dividir el contenido de una página o artículo en secciones temáticas o de contenido.</td>
+			</tr>
+			<tr>
+				<td>&lt;article&gt;</td>
+				<td>Define un artículo independiente en una página.</td>
+				<td>Se utiliza para marcar un contenido independiente y completo dentro de una página, como un post en un blog o una noticia en un sitio de noticias.</td>
+			</tr>
+			<tr>
+				<td>&lt;aside&gt;</td>
+				<td>Define un contenido relacionado con la página pero no es parte del contenido principal.</td>
+				<td>Se utiliza para agregar contenido relacionado, como una barra lateral o una sección de publicidad, que no es parte del contenido principal de la página.</td>
+			</tr>
+			<tr>
+				<td>&lt;br&gt;</td>
+				<td>Inserta un salto de línea.</td>
+				<td>Se utiliza para agregar un salto de línea en un texto o elemento en HTML.</td>
+			</tr>
+			<tr>
+				<td>&lt;ol&gt;</td>
+				<td>Define una lista ordenada.</td>
+				<td>Se utiliza para agregar una lista de elementos en un orden específico, como pasos a seguir o una lista numerada.</td>
+			</tr>
+			<tr>
+				<td>&lt;li&gt;</td>
+				<td>Define un elemento de una lista.</td>
+				<td>Se utiliza dentro de una lista ordenada o no ordenada para definir un elemento de la lista.</td>
+			</tr>
+			<tr>
+				<td>&lt;ul&gt;</td>
+				<td>Define una lista no ordenada.</td>
+				<td>Se utiliza para agregar una lista de elementos en cualquier orden, como una lista de elementos sin importancia o una lista de opciones.</td>
+			</tr>
+			<tr>
+				<td>&lt;hr&gt;</td>
+				<td>Inserta una línea</td>
+				<td>Se utiliza para agregar una línea horizontal en un documento HTML, que puede ser utilizada para separar secciones o elementos.</td>
+			</tr>
+			<tr>
+				<td>&lt;wbr&gt;</td>
+				<td>Define un posible lugar de ruptura de línea en un texto.</td>
+				<td>Se utiliza para indicar un posible lugar donde un texto se puede dividir en varias líneas si es necesario, como en palabras largas o en URLs.</td>
+			</tr>
+			<tr>
+				<td>&lt;sup&gt;</td>
+				<td>Define un texto sobrescrito.</td>
+				<td>Se utiliza para indicar un texto que debe aparecer en una posición superior a la línea de texto normal, como en una fórmula matemática o un exponente.</td>
+			</tr>
+			<tr>
+				<td>&lt;sub&gt;</td>
+				<td>Define un texto subescrito.</td>
+				<td>Se utiliza para indicar un texto que debe aparecer en una posición inferior a la línea de texto normal, como en una fórmula química o una nota a pie de página.</td>
+			</tr>
+			<tr>
+				<td>&lt;strong&gt;</td>
+				<td>Define un texto importante.</td>
+				<td>Se utiliza para marcar un texto que es importante o relevante dentro de un contenido, como en un titular o una palabra clave.</td>
+			</tr>
+			<tr>
+				<td>&lt;em&gt;</td>
+				<td>Define un texto enfatizado.</td>
+				<td>Se utiliza para marcar un texto que debe ser enfatizado o destacado, como en una cita o una palabra clave.</td>
+			</tr>
+			<tr>
+				<td>&lt;mark&gt;</td>
+				<td>Define un texto resaltado.</td>
+				<td>Se utiliza para marcar un texto que debe ser resaltado o destacado de alguna manera, como en un término de búsqueda o un error en un formulario.</td>
+			</tr>
+
+			<tr>
+				<td>&lt;q&gt;</td>
+				<td>Define una cita corta.</td>
+				<td>Se utiliza para marcar una cita breve dentro de un texto, como una frase o un enunciado que se ha tomado de otra fuente.</td>
+			</tr>
+			<tr>
+				<td>&lt;blockquote&gt;</td>
+				<td>Define una cita larga.</td>
+				<td>Se utiliza para marcar una cita que ocupa varios párrafos o líneas de texto, como un pasaje de un libro o un artículo de revista.</td>
+			</tr>
+			<tr>
+				<td>&lt;cite&gt;</td>
+				<td>Define una referencia a una fuente.</td>
+				<td>Se utiliza para marcar una referencia a una fuente, como un libro, un artículo o un sitio web, que se ha utilizado en el contenido.</td>
+			</tr>
+			<tr>
+				<td>&lt;dfn&gt;</td>
+				<td>Define un término.</td>
+				<td>Se utiliza para marcar un término que se está definiendo en el contenido, como un concepto o una palabra técnica.</td>
+			</tr>
+			<tr>
+				<td>&lt;abbr&gt;</td>
+				<td>Define una abreviatura.</td>
+				<td>Se utiliza para marcar una abreviatura en el contenido, como "Mr." para "Mister" o "NASA" para "National Aeronautics and Space Administration".</td>
+			</tr>
+			<tr>
+				<td>&lt;small&gt;</td>
+				<td>Define un texto pequeño.</td>
+				<td>Se utiliza para indicar un texto que debe aparecer en una fuente más pequeña que el texto circundante, como en una nota al pie o un aviso legal.</td>
+			</tr>
+			<tr>
+				<td>&lt;ins&gt;</td>
+				<td>Define un texto insertado.</td>
+				<td>Se utiliza para indicar un texto que se ha añadido recientemente al contenido, como en un chat o un historial de cambios.</td>
+			</tr>
+			<tr>
+				<td>&lt;del&gt;</td>
+				<td>Define un texto eliminado.</td>
+				<td>Se utiliza para indicar un texto que se ha eliminado o modificado en el contenido, como en un historial de cambios o una corrección de errores.</td>
+			</tr>
+			<tr>
+				<td>&lt;s&gt;</td>
+				<td>Define un texto tachado.</td>
+				<td>Se utiliza para indicar un texto que se ha tachado o marcado como obsoleto o incorrecto en el contenido, como en un historial de cambios o una corrección de errores.</td>
+			</tr>
+			<tr>
+				<td>&lt;code&gt;</td>
+				<td>Define código de computadora.</td>
+				<td>Se utiliza para marcar un fragmento de código dentro del texto.</td>
+			</tr>
+			<tr>
+				<td>&lt;samp&gt;</td>
+				<td>Define un ejemplo de salida.</td>
+				<td>Se utiliza para marcar un ejemplo de salida en el contenido, como la salida de un programa o un comando de línea de comandos.</td>
+			</tr>
+			<tr>
+				<td>&lt;kbd&gt;</td>
+				<td>Define entrada del teclado.</td>
+				<td>Se utiliza para marcar la entrada del teclado en el contenido, como la pulsación de una tecla o la combinación de varias teclas.</td>
+			</tr>
+			<tr>
+				<td>&lt;pre&gt;</td>
+				<td>Define texto preformateado.</td>
+				<td>Se utiliza para marcar un bloque de texto que debe aparecer en su formato original, sin procesar ni modificar, como el código de programación o una transcripción de un discurso.</td>
+			</tr>
+			<tr>
+				<td>&lt;address&gt;</td>
+				<td>Define información de contacto.</td>
+				<td>Se utiliza para marcar información de contacto en el contenido, como el nombre, la dirección y el número de teléfono de una persona o una empresa.</td>
+			</tr>
+			<tr>
+				<td>&amp;lt;</td>
+				<td>Menor que.</td>
+				<td>Se utiliza para mostrar el símbolo &lt; en el contenido, sin que sea interpretado como un elemento HTML.</td>
+			</tr>
+			<tr>
+				<td>&amp;gt;</td>
+				<td>Mayor que.</td>
+				<td>Se utiliza para mostrar el símbolo &gt; en el contenido, sin que sea interpretado como un elemento HTML.</td>
+			</tr>
+			<tr>
+				<td>&amp;amp;</td>
+				<td>Ampersand.</td>
+				<td>Se utiliza para mostrar el símbolo &amp; en el contenido, sin que sea interpretado como un carácter especial.</td>
+			</tr>
+			<tr>
+				<td>&amp;quot;</td>
+				<td>Comillas dobles.</td>
+				<td>Se utiliza para mostrar comillas dobles en el contenido, sin que sean interpretadas como delimitadores de texto.</td>
+			</tr>
+			<tr>
+				<td>&amp;apos;</td>
+				<td>Comillas simples.</td>
+				<td>Se utiliza para mostrar comillas simples en el contenido, sin que sean interpretadas como delimitadores de texto.</td>
+			</tr>
+			<tr>
+				<td>&lt;table&gt;</td>
+				<td>Define una tabla.</td>
+				<td>Se utiliza para crear una tabla en HTML, que puede contener filas y columnas de datos.</td>
+			</tr>
+			<tr>
+				<td>&lt;thead&gt;</td>
+				<td>Define la sección de encabezado de una tabla.</td>
+				<td>Se utiliza para indicar la sección de encabezado de una tabla, que suele contener las etiquetas &lt;th&gt; para cada columna de la tabla.</td>
+			</tr>
+			<tr>
+				<td>&lt;tbody&gt;</td>
+				<td>Define la sección de cuerpo de una tabla.</td>
+				<td>Se utiliza para indicar la sección de cuerpo de una tabla, que suele contener las etiquetas &lt;tr&gt; para cada fila de la tabla.</td>
+			</tr>
+			<tr>
+				<td>&lt;tfoot&gt;</td>
+				<td>Define la sección de pie de una tabla.</td>
+				<td>Se utiliza para indicar la sección de pie de una tabla, que suele contener las etiquetas &lt;th&gt; o &lt;td&gt; para cada columna de la tabla, y se coloca al final del elemento &lt;table&gt;.</td>
+			</tr>
+			<tr>
+				<td>&lt;tr&gt;</td>
+				<td>Define una fila de una tabla.</td>
+				<td>Se utiliza para crear una fila en una tabla, que suele contener las etiquetas &lt;th&gt; o &lt;td&gt; para cada celda de la fila.</td>
+			</tr>
+			<tr>
+				<td>&lt;th&gt;</td>
+				<td>Define una celda de encabezado en una tabla.</td>
+				<td>Se utiliza para crear una celda de encabezado en una tabla, que se coloca dentro de la etiqueta &lt;thead&gt; o &lt;tfoot&gt;, y suele contener el texto de la columna.</td>
+			</tr>
+			<tr>
+				<td>&lt;td&gt;</td>
+				<td>Define una celda de datos en una tabla.</td>
+				<td id="final">Se utiliza para crear una celda de datos en una tabla, que se coloca dentro de la etiqueta &lt;tbody&gt;, y suele contener el valor de la celda.</td>
 			</tr>
         </tbody>
     </table>
